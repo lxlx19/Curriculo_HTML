@@ -136,4 +136,17 @@ b {
     #mainLeft {
         border-right: 1px solid #aaa;
     }
+    #printBtn { display:none !important; }
+    /* Remove backgrounds for ink saving */
+    body, header, section { background: #fff !important; }
+    /* Tighten spacing */
+    h2 { margin-top:1.6em; margin-bottom:.4em; color:#000; }
+    h3 { margin:1em 0 .3em; }
+    ul { margin:.2em 0 .5em 1.1em; }
+    ul li { margin:.25em 0; }
+    /* Page break utilities */
+    .page-break { page-break-after: always; }
 }
+
+/* Utility classes (screen only) */
+.page-break { margin-top:2rem; }
